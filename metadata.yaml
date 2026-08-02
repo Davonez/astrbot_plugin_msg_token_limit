@@ -1,4 +1,4 @@
 name: astrbot_plugin_msg_token_limit
 desc: 群聊消息长度(token)限制：超长消息自动拦截并提示，防止刷屏。
 version: v1.0.0
-author: 桃夭
+author: Davonez
