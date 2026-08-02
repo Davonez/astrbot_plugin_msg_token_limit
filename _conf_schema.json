@@ -1,0 +1,25 @@
+{
+  "max_tokens": {
+    "description": "每个用户单条消息允许的最大 token 数",
+    "type": "int",
+    "default": 100,
+    "hint": "中文约1.5 token/字，100 token 大约等于 60~70 个汉字"
+  },
+  "enabled_groups": {
+    "description": "启用限制的群号列表，留空表示所有群生效",
+    "type": "list",
+    "default": [],
+    "hint": "例如 [\"123456789\"]"
+  },
+  "whitelist_users": {
+    "description": "白名单用户 QQ，不受限制",
+    "type": "list",
+    "default": ["3179723742"],
+    "hint": "例如 [\"3179723742\"]"
+  },
+  "tip_message": {
+    "description": "超长消息提示语，{max_tokens} 会被替换成上限值",
+    "type": "string",
+    "default": "⚠️ 消息太长啦，请控制在 {max_tokens} token 以内喵~"
+  }
+}
