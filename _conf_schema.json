@@ -14,8 +14,8 @@
   "whitelist_users": {
     "description": "白名单用户 QQ，不受限制",
     "type": "list",
-    "default": ["3179723742"],
-    "hint": "例如 [\"3179723742\"]"
+    "default": [],
+    "hint": "例如 [\"123456789\"]"
   },
   "tip_message": {
     "description": "超长消息提示语，{max_tokens} 会被替换成上限值",

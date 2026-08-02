@@ -4,6 +4,8 @@
 
 基于 [AstrBot](https://github.com/Soulter/AstrBot) 框架开发。
 
+**作者：Davonez**
+
 ## ✨ 功能特性
 
 - 🚫 **超长消息自动拦截**：艾特机器人（或唤醒指令）的消息若超过设定的 token 上限，将被拦截，不会继续传播给后续插件 / LLM，有效防止刷屏。
@@ -24,7 +26,7 @@
 | --- | --- | --- | --- |
 | `max_tokens` | `int` | `100` | 每个用户单条消息允许的最大 token 数。中文约 1.5 token/字，100 token 大约等于 60~70 个汉字 |
 | `enabled_groups` | `list` | `[]` | 启用限制的群号列表，留空表示所有群生效。例如 `["123456789"]` |
-| `whitelist_users` | `list` | `["3179723742"]` | 白名单用户 QQ，这些用户不受限制 |
+| `whitelist_users` | `list` | `[]` | 白名单用户 QQ，这些用户不受限制 |
 | `tip_message` | `string` | `⚠️ 消息太长啦，请控制在 {max_tokens} token 以内喵~` | 超长消息提示语，`{max_tokens}` 会被替换成实际上限值 |
 
 ## 🧠 工作原理

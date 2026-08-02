@@ -8,7 +8,7 @@ from astrbot.core.message.message_event_result import MessageChain
 
 @register(
     "astrbot_plugin_msg_token_limit",
-    "桃夭",
+    "Davonez",
     "群聊消息长度(token)限制：超长消息自动拦截并提示，防止刷屏。",
     "1.0.0",
 )
